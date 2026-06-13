@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+
+# Logs & debug
+*.log
+npm-debug.log*
+
+# Env / secrets
+.env
+.env.*
+
+# Build / TS
+*.tsbuildinfo
+
+# OS / editor
+.DS_Store
+*.swp
+
+# Agent run outputs (generated per run)
+agents/*/output/
+
+# Scratch
+_*.mjs

@@ -1,0 +1,12 @@
+{
+  "name": "keyword_analyser",
+  "title": "SEO Keyword Analyser",
+  "description": "Researches a client's site and target keywords, then produces a prioritised keyword strategy to move rankings from where they are to page 1.",
+  "model": "claude-sonnet-4-5",
+  "maxTurns": 40,
+  "allowedTools": ["WebSearch", "WebFetch", "Read", "Write"],
+  "outputs": [
+    { "file": "output/keywords.json", "kind": "json", "required": true },
+    { "file": "output/report.md", "kind": "markdown", "required": true }
+  ]
+}
