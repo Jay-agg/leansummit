@@ -1,0 +1,350 @@
+{
+  "client": {
+    "domain": "www.bark.com",
+    "niche": "Maintenance and repair agency",
+    "geography": "New York, USA",
+    "goal": "Move from page 2 to page 1 for required keywords within the next two quarters"
+  },
+  "assumptions": [
+    "Interpreted the example context.md data as the actual client brief",
+    "Assumed the client serves both residential and commercial markets based on general maintenance and repair scope",
+    "Assumed bark.com wants to focus on the New York City metro area rather than New York State broadly",
+    "Estimated search volumes based on competitor density and SERP features rather than exact data",
+    "Assumed the client has capacity to create service-specific pages and location pages"
+  ],
+  "keywords": [
+    {
+      "keyword": "maintenance new york",
+      "from_brief": true,
+      "intent": "commercial",
+      "estimated_volume": "high",
+      "estimated_difficulty": "high",
+      "relevance": 5,
+      "priority": "now",
+      "current_top_competitors": [
+        "yelp.com",
+        "abm.com",
+        "ziprecruiter.com",
+        "indeed.com",
+        "nycmaintenanceservices.com"
+      ],
+      "recommended_action": "Create a comprehensive /maintenance-new-york landing page targeting both residential and commercial audiences with service categories, service areas, and local trust signals (NYC licensing, borough coverage)"
+    },
+    {
+      "keyword": "home maintenance new york",
+      "from_brief": false,
+      "intent": "commercial",
+      "estimated_volume": "high",
+      "estimated_difficulty": "high",
+      "relevance": 5,
+      "priority": "now",
+      "current_top_competitors": [
+        "yelp.com",
+        "ag.ny.gov",
+        "dph.nyc",
+        "handy.com",
+        "nymgroup.com"
+      ],
+      "recommended_action": "Create a dedicated /home-maintenance-new-york page focusing on residential services with NYC-specific content (climate considerations, local regulations, apartment vs house maintenance)"
+    },
+    {
+      "keyword": "building maintenance new york",
+      "from_brief": false,
+      "intent": "commercial",
+      "estimated_volume": "high",
+      "estimated_difficulty": "high",
+      "relevance": 5,
+      "priority": "now",
+      "current_top_competitors": [
+        "abm.com",
+        "plannedcompanies.com",
+        "nyc.gov",
+        "setupnyc.com",
+        "alliance.us"
+      ],
+      "recommended_action": "Create a /building-maintenance-new-york page targeting commercial property managers and building owners, emphasize 24/7 availability, multi-building contracts, and preventive maintenance programs"
+    },
+    {
+      "keyword": "repair services new york",
+      "from_brief": false,
+      "intent": "commercial",
+      "estimated_volume": "high",
+      "estimated_difficulty": "high",
+      "relevance": 5,
+      "priority": "now",
+      "current_top_competitors": [
+        "mrappliance.com",
+        "puls.com",
+        "taskrabbit.com",
+        "yelp.com",
+        "hellosuper.com"
+      ],
+      "recommended_action": "Create a /repair-services-new-york page showcasing specific repair categories (appliance, plumbing, electrical, HVAC) with same-day/emergency service messaging"
+    },
+    {
+      "keyword": "maintenance services near me",
+      "from_brief": false,
+      "intent": "local",
+      "estimated_volume": "high",
+      "estimated_difficulty": "medium",
+      "relevance": 5,
+      "priority": "now",
+      "current_top_competitors": [
+        "setupnyc.com",
+        "yelp.com",
+        "nycmaintenanceservices.com",
+        "plannedcompanies.com",
+        "methodmaintenance.nyc"
+      ],
+      "recommended_action": "Optimize all service pages with local business schema markup, ensure Google Business Profile is fully optimized with all NYC locations/service areas, and add 'Near Me' variants in page titles and H2s"
+    },
+    {
+      "keyword": "property maintenance new york",
+      "from_brief": false,
+      "intent": "commercial",
+      "estimated_volume": "medium",
+      "estimated_difficulty": "high",
+      "relevance": 5,
+      "priority": "next",
+      "current_top_competitors": [
+        "bbb.org",
+        "yelp.com",
+        "yellowpages.com",
+        "nymgroup.com",
+        "landofelite.com"
+      ],
+      "recommended_action": "Create /property-maintenance-new-york targeting landlords and property managers, include content about NYC compliance requirements and multi-unit building services"
+    },
+    {
+      "keyword": "handyman services new york",
+      "from_brief": false,
+      "intent": "commercial",
+      "estimated_volume": "high",
+      "estimated_difficulty": "high",
+      "relevance": 4,
+      "priority": "next",
+      "current_top_competitors": [
+        "airtasker.com",
+        "houzz.com",
+        "taskrabbit.com",
+        "thumbtack.com",
+        "handy.com"
+      ],
+      "recommended_action": "Create a /handyman-new-york page with clear pricing ($70-$200 range), service list (drywall, fixtures, assembly, painting), and same-day availability messaging"
+    },
+    {
+      "keyword": "maintenance company new york city",
+      "from_brief": false,
+      "intent": "commercial",
+      "estimated_volume": "medium",
+      "estimated_difficulty": "high",
+      "relevance": 5,
+      "priority": "next",
+      "current_top_competitors": [
+        "abm.com",
+        "plannedcompanies.com",
+        "mjsettelen.com",
+        "gnetconstruction.com",
+        "nymgroup.com"
+      ],
+      "recommended_action": "Create an 'About Us' or company page optimized for this keyword, emphasize years in business, number of NYC clients served, certifications, and NYC-specific expertise"
+    },
+    {
+      "keyword": "apartment maintenance new york",
+      "from_brief": false,
+      "intent": "commercial",
+      "estimated_volume": "medium",
+      "estimated_difficulty": "medium",
+      "relevance": 5,
+      "priority": "next",
+      "current_top_competitors": [
+        "indeed.com",
+        "portal.311.nyc.gov",
+        "yelp.com",
+        "townhousecleaning.com",
+        "dph.nyc"
+      ],
+      "recommended_action": "Create /apartment-maintenance-new-york targeting both landlords and tenants, address common NYC apartment issues (old piping, limited space, co-op/condo maintenance)"
+    },
+    {
+      "keyword": "commercial maintenance services nyc",
+      "from_brief": false,
+      "intent": "commercial",
+      "estimated_volume": "medium",
+      "estimated_difficulty": "high",
+      "relevance": 5,
+      "priority": "next",
+      "current_top_competitors": [
+        "facebook.com",
+        "nycmaintenanceservices.com",
+        "absandcbs.com",
+        "dllcleaningservices.com",
+        "alliance.us"
+      ],
+      "recommended_action": "Create /commercial-maintenance-nyc with case studies from offices, retail, restaurants; emphasize flexible scheduling, minimal business disruption"
+    },
+    {
+      "keyword": "emergency repair services new york",
+      "from_brief": false,
+      "intent": "transactional",
+      "estimated_volume": "medium",
+      "estimated_difficulty": "medium",
+      "relevance": 5,
+      "priority": "now",
+      "current_top_competitors": [
+        "nyc.gov",
+        "servicemasterrestore.com",
+        "metrogroupinc.com",
+        "afgo.com",
+        "abovebeyondplumbing.com"
+      ],
+      "recommended_action": "Create /emergency-repair-new-york with prominent 24/7 phone number, response time guarantee, and emergency service coverage map; optimize for mobile users"
+    },
+    {
+      "keyword": "24/7 maintenance services nyc",
+      "from_brief": false,
+      "intent": "transactional",
+      "estimated_volume": "low",
+      "estimated_difficulty": "medium",
+      "relevance": 5,
+      "priority": "now",
+      "current_top_competitors": [
+        "yelp.com",
+        "cityfixmaintenance.com",
+        "nymgroup.com",
+        "24hrfacilitymaintenance.com",
+        "24qualityservice.com"
+      ],
+      "recommended_action": "Add '24/7' messaging to homepage and key service pages, create dedicated /24-7-maintenance-nyc page highlighting emergency response capabilities"
+    },
+    {
+      "keyword": "hvac maintenance new york",
+      "from_brief": false,
+      "intent": "commercial",
+      "estimated_volume": "medium",
+      "estimated_difficulty": "high",
+      "relevance": 4,
+      "priority": "later",
+      "current_top_competitors": [
+        "abm.com",
+        "york.com",
+        "yelp.com",
+        "donnellymech.com",
+        "hvacnycpro.com"
+      ],
+      "recommended_action": "If offering HVAC services, create /hvac-maintenance-new-york with preventive maintenance plans, NYC climate considerations, and energy efficiency messaging"
+    },
+    {
+      "keyword": "plumbing repair new york",
+      "from_brief": false,
+      "intent": "commercial",
+      "estimated_volume": "medium",
+      "estimated_difficulty": "high",
+      "relevance": 4,
+      "priority": "later",
+      "current_top_competitors": [
+        "thumbtack.com",
+        "rotorooter.com",
+        "yelp.com",
+        "plumbingandheatingnyc.com",
+        "abovebeyondplumbing.com"
+      ],
+      "recommended_action": "If offering plumbing, create /plumbing-repair-new-york addressing NYC-specific plumbing challenges (old piping, water pressure issues, space constraints)"
+    },
+    {
+      "keyword": "residential maintenance new york city",
+      "from_brief": false,
+      "intent": "commercial",
+      "estimated_volume": "low",
+      "estimated_difficulty": "medium",
+      "relevance": 5,
+      "priority": "later",
+      "current_top_competitors": [
+        "nyc.gov",
+        "landofelite.com",
+        "dpmnyc.net",
+        "yelp.com",
+        "nymgroup.com"
+      ],
+      "recommended_action": "Create /residential-maintenance-nyc as a variation of home maintenance page, include NYC Housing Maintenance Code compliance information"
+    },
+    {
+      "keyword": "affordable handyman new york",
+      "from_brief": false,
+      "intent": "commercial",
+      "estimated_volume": "low",
+      "estimated_difficulty": "medium",
+      "relevance": 4,
+      "priority": "later",
+      "current_top_competitors": [
+        "craigslist.org",
+        "affordablenychandyman.com",
+        "thumbtack.com",
+        "bigapplehandyman.weebly.com",
+        "nyhandymannyc.com"
+      ],
+      "recommended_action": "Add 'affordable' and pricing transparency to handyman page, show starting rates or hourly pricing ($54-$80/hr competitive range)"
+    },
+    {
+      "keyword": "maintenance manhattan",
+      "from_brief": false,
+      "intent": "local",
+      "estimated_volume": "medium",
+      "estimated_difficulty": "medium",
+      "relevance": 5,
+      "priority": "next",
+      "current_top_competitors": [
+        "setupnyc.com",
+        "yelp.com",
+        "nycmaintenanceservices.com",
+        "plannedcompanies.com",
+        "methodmaintenance.nyc"
+      ],
+      "recommended_action": "Create borough-specific landing pages starting with /maintenance-manhattan, then Brooklyn, Queens, Bronx, Staten Island - each with local landmarks, zip codes, neighborhoods"
+    },
+    {
+      "keyword": "maintenance brooklyn",
+      "from_brief": false,
+      "intent": "local",
+      "estimated_volume": "medium",
+      "estimated_difficulty": "medium",
+      "relevance": 5,
+      "priority": "next",
+      "current_top_competitors": [
+        "nymgroup.com",
+        "yelp.com",
+        "local directories"
+      ],
+      "recommended_action": "Create /maintenance-brooklyn location page with Brooklyn-specific content, testimonials from Brooklyn clients, and neighborhood coverage map"
+    },
+    {
+      "keyword": "maintenance queens",
+      "from_brief": false,
+      "intent": "local",
+      "estimated_volume": "medium",
+      "estimated_difficulty": "medium",
+      "relevance": 5,
+      "priority": "later",
+      "current_top_competitors": [
+        "local directories",
+        "yelp.com"
+      ],
+      "recommended_action": "Create /maintenance-queens location page after Manhattan and Brooklyn pages are established"
+    },
+    {
+      "keyword": "maintenance bronx",
+      "from_brief": false,
+      "intent": "local",
+      "estimated_volume": "low",
+      "estimated_difficulty": "low",
+      "relevance": 5,
+      "priority": "later",
+      "current_top_competitors": [
+        "local directories",
+        "yelp.com"
+      ],
+      "recommended_action": "Create /maintenance-bronx location page as part of complete NYC borough coverage strategy"
+    }
+  ],
+  "summary": "The NYC maintenance market is highly competitive with major national players (ABM, Planned Companies), established local companies, and platform aggregators (Yelp, TaskRabbit, Handy) dominating page 1. Success requires a multi-pronged approach: create service-specific pages (home, building, commercial), emphasize differentiators (24/7 availability, emergency services, local expertise), and build borough-level location pages. Quick wins exist in emergency/24-7 keywords and local 'near me' optimization through schema markup and Google Business Profile optimization. The required keyword 'maintenance new york' is highly competitive but achievable within two quarters through comprehensive content, local SEO signals, and technical optimization."
+}

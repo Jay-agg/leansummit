@@ -1,0 +1,10 @@
+{
+    "question": {
+        "type": "string",
+        "description": "analyse the page"
+    },
+    "answer": {
+        "type": "tool",
+        "description": "access "
+    }
+}

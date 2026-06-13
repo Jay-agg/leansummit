@@ -16,8 +16,7 @@ npm-debug.log*
 .DS_Store
 *.swp
 
-# Agent run outputs (generated per run)
-agents/*/output/
+
 
 # Scratch
 _*.mjs
